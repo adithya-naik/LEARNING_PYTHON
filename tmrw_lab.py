@@ -92,11 +92,59 @@
 
 
 
+
+
+# 12.Write a program that accepts a sentence and calculate the number of letters and digits. Suppose the following input is supplied to the program:
+# Statement :
+# hello world! 123
+# Then, the output should be:
+# LETTERS 10
+# DIGITS 3
+
+# import string
+# import numbers
+# def find(string):
+#     l =0 
+#     d=0
+#     for  c in string:
+#         if(c in letters):
+#             l = l+1
+#         elif(c in digits):
+#             d= d+1
+#     print(f"Letters : {l}\nDigits : {d}")
+
+# letters = string.ascii_letters
+# digits = string.digits
+# string = input("Enter the string : ")
+# find(string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 11.  Write a Python program to Count how many times an element appeared in a list.
+# l = int(input("Enter the length of the List :"))
+# a = []
+# for i in range(l):
+#     ele = int(input(f"Enter List Element at {i+1} : "))
+#     a.append(ele)
+# def count(a):
+#     for i in a:
+#         for j in a:
+#             if(i == j):
+#                 c++
 
-
-
-
+# count()
 
 
 
