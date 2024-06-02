@@ -16,10 +16,17 @@
 # print(f"In Hexadecimal : {hex(n)}")
 
 
+
+
+
 # 4. Write a Python Program To Find ASCII value of a character.
 # n = (input("Enetr a Charecter : "))
 # ascii_value = ord(n)
 # print(f"ASCII Value : {ascii_value}")
+
+
+
+
 
 
 # 5.Write a Python Program to Find Factorial of Number Using Recursion.
@@ -34,6 +41,10 @@
 # print(f"Factorial of {n} is  : {f}")
 
 
+
+
+
+
 # 6.Write a Python Program to find the sum of an array.
 # l = int(input("Enter the length of the Array :"))
 # a = [0]
@@ -42,6 +53,48 @@
 #     a.append(ele)
 # sum_ = sum(a)
 # print(f"Sum of Array Elements : {sum_}")
+
+
+
+
+
+
+
+# 8. Write a Python program to find the smallest number in a list.
+list_=[]
+l = int(input("Enter the length of the Array :"))
+a = []
+for i in range(l):
+    ele = int(input(f"Enter Array Element at {i+1} : "))
+    a.append(ele)
+small = min(a)
+print(f"Smallest number in the list : {small}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
