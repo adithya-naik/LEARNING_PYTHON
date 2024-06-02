@@ -61,14 +61,32 @@
 
 
 # 8. Write a Python program to find the smallest number in a list.
+# list_=[]
+# l = int(input("Enter the length of the List :"))
+# a = []
+# for i in range(l):
+#     ele = int(input(f"Enter List Element at {i+1} : "))
+#     a.append(ele)
+# small = min(a)
+# print(f"Smallest number in the list : {small}")
+
+
+
+
+
+
+# 9.Write a Python program to print odd numbers in a List.
 list_=[]
 l = int(input("Enter the length of the Array :"))
 a = []
 for i in range(l):
     ele = int(input(f"Enter Array Element at {i+1} : "))
     a.append(ele)
-small = min(a)
-print(f"Smallest number in the list : {small}")
+    if(a[i]%2 ==0 ):
+        continue
+    else:
+        print(a[i])
+
 
 
 
