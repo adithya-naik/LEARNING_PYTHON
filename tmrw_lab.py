@@ -61,7 +61,6 @@
 
 
 # 8. Write a Python program to find the smallest number in a list.
-# list_=[]
 # l = int(input("Enter the length of the List :"))
 # a = []
 # for i in range(l):
@@ -76,18 +75,45 @@
 
 
 # 9.Write a Python program to print odd numbers in a List.
-list_=[]
-l = int(input("Enter the length of the Array :"))
-a = []
-for i in range(l):
-    ele = int(input(f"Enter Array Element at {i+1} : "))
-    a.append(ele)
-    if(a[i]%2 ==0 ):
-        continue
-    else:
-        print(a[i])
+# l = int(input("Enter the length of the Array :"))
+# a = []
+# for i in range(l):
+#     ele = int(input(f"Enter Array Element at {i+1} : "))
+#     a.append(ele)
+# def printlist(a):
+#     for i in a:
+#         if(i%2 ==0 ):
+#             continue
+#         else:
+#             print(f"Odd : {i}")
+# printlist(a)
 
 
+
+
+
+# 11.  Write a Python program to Count how many times an element appeared in a list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 10.
 
 
 
